@@ -47,10 +47,20 @@ body ,.quote-input{
     margin: auto;
     resize: none; 
     padding: 0.5rem 1rem;
-
+    font-size:1rem;
+    border-radius: 0.5rem;
 }
 
 .quoteInput:focus {
     border-color: black;
 
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
 }
